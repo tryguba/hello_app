@@ -10,7 +10,7 @@ export function App(): ReactElement {
       <div className={classes.scale}>hello</div>
       <div className={classes.mainWrap}>
         <div className={classes.main}>
-          <ComponentOne text="world" />
+          <ComponentOne text="worlds" />
         </div>
       </div>
     </div>
