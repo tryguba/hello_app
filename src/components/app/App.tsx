@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { ComponentOne } from '../../../../components/component-one/component.one';
+import { ComponentOne } from '../component-one/component.one';
 import { useStylesApp } from './app.styles';
 
 export function App(): ReactElement {

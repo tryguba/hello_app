@@ -11,15 +11,15 @@ const CONFIG = {
 
 /* ENTRIES DEFINED */
 CONFIG.ENTRIES = {
-  app: [CONFIG.PATHS.src + '/entries/app/index.tsx'],
+  app: [CONFIG.PATHS.src + '/index.tsx'],
 };
 
 function createHtml(name) {
   return new HtmlWebpackPlugin({
-    title: 'Bit application',
+    title: 'torrent_client',
     chunks: [name],
     filename: `${name}.html`,
-    template: './src/public/templates/template.html',
+    template: './src/public/template.html',
     minify: {
       collapseWhitespace: true,
     },
